@@ -200,14 +200,14 @@ function addLogin(allLogins, login) {
   } else if (!isLoginUnique(allLogins, login)) {
     return (message = REFUSAL);
   } else {
-    allLogins.concat(login);
+    allLogins.push(login);
     return (message = SUCCESS);
   }
 }
 
 const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"];
 
-// console.log(addLogin(logins, "Ajax"));
+//console.log(addLogin(logins, "Ajax"));
 // 'Логин успешно добавлен!'
 
 // console.log(addLogin(logins, "robotGoogles"));
