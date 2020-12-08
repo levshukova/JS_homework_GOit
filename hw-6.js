@@ -227,7 +227,7 @@ console.log(getUsersWithAge(users, 30, 40));
 const calculateTotalBalance = (array) =>
   array.reduce((acc, { balance }) => acc + balance, 0);
 
-console.log(calculateTotalBalance(users));
+// console.log(calculateTotalBalance(users));
 // 20916
 
 // Task 8
@@ -237,10 +237,10 @@ const getUsersWithFriend = (array, friendName) =>
     .filter(({ friends }) => friends.includes(friendName))
     .map(({ name }) => name);
 
-console.log(getUsersWithFriend(users, "Briana Decker"));
+// console.log(getUsersWithFriend(users, "Briana Decker"));
 // [ 'Sharlene Bush', 'Sheree Anthony' ]
 
-console.log(getUsersWithFriend(users, "Goldie Gentry"));
+// console.log(getUsersWithFriend(users, "Goldie Gentry"));
 // [ 'Elma Head', 'Sheree Anthony' ]
 
 // Task 9
@@ -251,7 +251,7 @@ const getNamesSortedByFriendsCount = (array) =>
     .sort((a, b) => a.friends.length - b.friends.length)
     .map(({ name }) => name);
 
-console.log(getNamesSortedByFriendsCount(users));
+// console.log(getNamesSortedByFriendsCount(users));
 // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
 
 // Task 10
@@ -262,7 +262,7 @@ const getSortedUniqueSkills = (array) =>
     .filter((value, index, array) => array.indexOf(value) == index)
     .sort();
 
-console.log(getSortedUniqueSkills(users));
+// console.log(getSortedUniqueSkills(users));
 /* [ 'adipisicing', 'amet',
  'anim', 'commodo',
  'culpa', 'elit',

@@ -1,42 +1,42 @@
-// const userPassword = null;
+const userPassword = null;
 
-// const ADMIN_PASSWORD = "jqueryismyjam";
+const ADMIN_PASSWORD = "jqueryismyjam";
 
-// const CANCELED_BY_USER = "Отменено пользователем!";
-// const ACCESS_IS_ALLOWED = "Добро пожаловать!";
-// const ACCESS_DENIED = "Доступ запрещен, неверный пароль!";
-// let message;
+const CANCELED_BY_USER = "Отменено пользователем!";
+const ACCESS_IS_ALLOWED = "Добро пожаловать!";
+const ACCESS_DENIED = "Доступ запрещен, неверный пароль!";
+let message;
 
-// // Write code under this line
-// if (userPassword === null) {
-//   message = CANCELED_BY_USER;
-// } else if (userPassword === ADMIN_PASSWORD) {
-//   message = ACCESS_IS_ALLOWED;
-// } else {
-//   message = ACCESS_DENIED;
-// }
+// Write code under this line
+if (userPassword === null) {
+  message = CANCELED_BY_USER;
+} else if (userPassword === ADMIN_PASSWORD) {
+  message = ACCESS_IS_ALLOWED;
+} else {
+  message = ACCESS_DENIED;
+}
 
 // console.log(message);
 
-// const orderPieces = null;
+const orderPieces = null;
 
-// const credits = 23580;
-// const pricePerDroid = 3000;
-// const CANCELED_BY_USER = "Отменено пользователем!";
-// const ACCESS_DENIED = "Недостаточно средств на счету!";
+const credits = 23580;
+const pricePerDroid = 3000;
+const CANCELED_BY_USER = "Отменено пользователем!";
+const ACCESS_DENIED = "Недостаточно средств на счету!";
 
-// let totalPrice = pricePerDroid * orderPieces; // Write code in this line
-// let balanceСredit = credits - totalPrice; // Write code in this line
-// let message;
+let totalPrice = pricePerDroid * orderPieces; // Write code in this line
+let balanceСredit = credits - totalPrice; // Write code in this line
+let message;
 
-// // Write code under this line
-// if (orderPieces === null) {
-//   message = CANCELED_BY_USER;
-// } else if (balanceСredit >= 0) {
-//   message = `Вы купили ${orderPieces} дроидов, на счету осталось ${balanceСredit} кредитов`;
-// } else {
-//   message = ACCESS_DENIED;
-// }
+// Write code under this line
+if (orderPieces === null) {
+  message = CANCELED_BY_USER;
+} else if (balanceСredit >= 0) {
+  message = `Вы купили ${orderPieces} дроидов, на счету осталось ${balanceСredit} кредитов`;
+} else {
+  message = ACCESS_DENIED;
+}
 
 // console.log(message);
 
